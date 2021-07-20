@@ -366,10 +366,10 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.software.vulkan.deqp.level-2020-03-01.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.vulkan.deqp.level.xml
 
 # Power
-PRODUCT_PACKAGES += \
-    android.hardware.power@1.3-service.xiaomi_sm6250
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/powerhint.json:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.json
 
-# RCS
+# Rootdir
 PRODUCT_PACKAGES += \
     com.android.ims.rcsmanager \
     PresencePolling \
