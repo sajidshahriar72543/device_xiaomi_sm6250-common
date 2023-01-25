@@ -783,4 +783,7 @@
     <!-- Doze: should the TYPE_PICK_UP_GESTURE sensor be used as a pulse signal. -->
     <bool name="config_dozePulsePickup">true</bool>
 
+    <!-- StatusBar burn-in protection -->
+    <bool name="config_disableStatusBarBurnInProtection">true</bool>
+
 </resources>
