@@ -25,6 +25,8 @@ arm64.memtag.process.system_server=off
 
 # Display
 debug.sf.enable_hwc_vds=1
+persist.lcd.cabc_mode=1
+persist.lcd.hbm_mode=0
 
 # DPM
 persist.vendor.dpm.feature=11

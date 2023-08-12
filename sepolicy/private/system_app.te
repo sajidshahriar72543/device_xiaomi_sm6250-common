@@ -1,3 +1,5 @@
 
 #Thermals stuff
 allow system_app sysfs_thermal:file write;
+
+set_prop(system_app, persist_lcd_prop)
