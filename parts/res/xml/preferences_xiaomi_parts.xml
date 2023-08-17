@@ -58,6 +58,13 @@
                 android:targetPackage="com.xiaomi.parts.speaker" />
         </Preference>
 
+    </PreferenceCategory>
+
+    <PreferenceCategory
+
+        android:key="audio"
+        android:title="@string/audio_category">
+
         <Preference
             android:key="audio_dolby_atmos"
             android:title="@string/dolby_title"

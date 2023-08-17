@@ -21,8 +21,11 @@
     <!-- Display category -->
     <string name="display_category">Display</string>
 
+    <!-- Audio category -->
+    <string name="audio_category">Audio Tweaks</string>
+
     <!-- Dolby -->
-    <string name="dolby_summary">Open Dolby Atmos app</string>
+    <string name="dolby_summary">Tweak audio quality</string>
     <string name="dolby_title">Dolby Atmos</string>
 
     <!-- KCAL -->
